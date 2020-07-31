@@ -5,21 +5,21 @@ Features
 ========
 * Save Image and Video for WhatsApp, Business WhatsApp and GB WhatsApp
   
-  ![Demo](screenshots/status_saver1.png)
+  ![Status Saver Image](screenshots/status_saver1.png)
 
 * Share and re-post for images and videos.
 
-  ![Demo](screenshots/status_saver3.png)
+  ![Status Saver Image](screenshots/status_saver3.jpg)
 
 * Delete any unwanted images and videos.
 
 * Inbuilt Video Player.
 
-  ![Demo](screenshots/status_saver4.png)
+  ![Status Saver Image](screenshots/status_saver4.jpg)
 
 * Multi-select images and videos to save, share or delete.
 
-  ![Demo](screenshots/status_saver2.png)
+  ![Status Saver Image](screenshots/status_saver2.png)
 
 Caveats
 =======
