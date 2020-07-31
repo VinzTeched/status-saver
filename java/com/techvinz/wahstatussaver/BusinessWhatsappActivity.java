@@ -25,6 +25,7 @@ import com.techvinz.wahstatussaver.fragments.BusinessVideoFragment;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
+
 public class BusinessWhatsappActivity extends AppCompatActivity {
 
     @BindView(R.id.toolbar) Toolbar toolbar;

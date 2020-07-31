@@ -1,5 +1,6 @@
 package com.techvinz.wahstatussaver.Model;
 
+
 import android.net.Uri;
 
 public class ModelStatus {

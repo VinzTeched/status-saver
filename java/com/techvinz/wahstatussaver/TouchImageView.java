@@ -138,6 +138,7 @@ public class TouchImageView extends AppCompatImageView {
         }
     }
 
+
     public void setRotateImageToFitScreen(boolean rotateImageToFitScreen) {
         isRotateImageToFitScreen = rotateImageToFitScreen;
     }
