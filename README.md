@@ -1,5 +1,7 @@
-WhatsApp Status Saver
+Status Saver
 =====================
+
+An all-in app for saving WhatsApp status
 
 Features
 ========
