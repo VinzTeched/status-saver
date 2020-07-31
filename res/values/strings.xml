@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Status Saver</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Status Saver</string>
+    <string name="nav_header_subtitle">Version 1.4.3</string>
+    <string name="nav_header_desc">Status Saver</string>
+
+    <string name="menu_home">WhatsApp</string>
+    <string name="menu_gallery">Business WhatsApp</string>
+    <string name="menu_slideshow">GB WhatsApp</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_rate">Rate Us</string>
+
+    <string name="title_activity_base_drawer">Status Saver</string>
+    <string name="statuses_saver">Techvinz</string>
+    <string name="other">Other</string>
+    <string name="action_share">Share</string>
+    <string name="action_info">Info</string>
+    <string name="popup_info"><b>How to Use?</b></string>
+    <string name="v_three">Come Back to this App to see Images/Videos</string>
+    <string name="v_two">Check your WhatsApp stories</string>
+    <string name="v4">Click the save button and the image/video will be instantly saved to your Gallery</string>
+    <string name="v5">If you\'ve checked then, Swipe down to Refresh</string>
+    <string name="send_to">Share Via</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_save">Save</string>
+    <string name="v7">Techvinz (techyvinz@gmail.com)</string>
+
+</resources>

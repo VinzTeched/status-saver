@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.techvinz.wahstatussaver">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.techvinz.wahstatussaver.SplashActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.techvinz.wahstatussaver.BaseDrawerActivity"
+            android:label="@string/title_activity_base_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.techvinz.wahstatussaver.GBWhatsappActivity"
+            android:parentActivityName="com.techvinz.wahstatussaver.BaseDrawerActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.techvinz.wahstatussaver.BaseDrawerActivity" />
+        </activity>
+        <activity
+            android:name="com.techvinz.wahstatussaver.BusinessWhatsappActivity"
+            android:parentActivityName="com.techvinz.wahstatussaver.BaseDrawerActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name="com.techvinz.wahstatussaver.activities.ImageViewerActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName="com.techvinz.wahstatussaver.BaseDrawerActivity"/>
+        <activity
+            android:name="com.techvinz.wahstatussaver.activities.GBImageActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.techvinz.wahstatussaver.activities.BusinessImageActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.techvinz.wahstatussaver.activities.VideoViewerActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName="com.techvinz.wahstatussaver.BaseDrawerActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenSize|screenLayout|uiMode"/>
+        <activity
+            android:name="com.techvinz.wahstatussaver.activities.BusinessVideoActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenSize|screenLayout|uiMode"/>
+        <activity
+            android:name="com.techvinz.wahstatussaver.activities.GBVideoActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenSize|screenLayout|uiMode"/>
+        <provider
+            android:authorities="com.techvinz.wahstatussaver.FileProvider"
+            android:name="androidx.core.content.FileProvider"
+            android:grantUriPermissions="true"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths"/>
+        </provider>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-5358683458645157~2811577273"/>
+    </application>
+
+</manifest>

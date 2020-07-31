@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/_40sdp"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:layout_width="138dp"
+        android:layout_height="133dp"
+        android:contentDescription="@string/statuses_saver"
+        android:src="@mipmap/ic_launcher" />
+
+
+</LinearLayout>
