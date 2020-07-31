@@ -12,7 +12,6 @@
     android:theme="@style/ThemeOverlay.AppCompat.Dark"
     android:orientation="vertical"
     android:gravity="bottom">
-
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

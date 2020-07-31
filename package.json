@@ -1,13 +1,9 @@
 {
-  "name": "stigmatized",
-  "version": "1.0.0",
-  "description": "",
-  "main": "stigmatized.js",
+  "name": "Status Saver",
+  "version": "1.4.2",
+  "description": "A status saver for saving images and videos",
+  "main": "SplashActivity.java",
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1",
-    "node-fetch": "^2.6.0",
-    "node-wit": "^6.0.0"
   },
   "author": "",
   "license": "ISC"

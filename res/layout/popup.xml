@@ -90,5 +90,7 @@
             android:textSize="@dimen/_12sdp"
             android:textColor="@android:color/black"/>
     </LinearLayout>
+    
 </androidx.cardview.widget.CardView>
+
 </RelativeLayout>

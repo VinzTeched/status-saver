@@ -54,5 +54,4 @@
         ads:adUnitId="ca-app-pub-5358683458645157/6367678908">
 
     </com.google.android.gms.ads.AdView>
-
 </RelativeLayout>
