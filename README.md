@@ -22,6 +22,8 @@ Features
 * Multi-select images and videos to save, share or delete.
 
   ![Status Saver Image](screenshots/status_saver2.png)
+  
+* Zoom in on viewed photos
 
 Caveats
 =======
