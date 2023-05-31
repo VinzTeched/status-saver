@@ -41,7 +41,7 @@ This software is not affliliated with, sponsored or endorsed by WhatsApp Inc.
 License
 =======
 
-    Copyright (C) 2020 Chibundo Ilonze
+    Copyright (C) 2020 Chibundo Ilonze - Vinshaggy Technology Limited
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
